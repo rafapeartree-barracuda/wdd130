@@ -56,6 +56,7 @@ main{
 .msg {
     background-color: #6f7364;
     line-height: 1.5em;
+    padding-bottom: 50px;
 }
 a{
     text-decoration: none;

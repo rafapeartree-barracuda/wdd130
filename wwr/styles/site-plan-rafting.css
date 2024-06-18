@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=rock-salt&family=optional-2nd-font-name&display=swap'); */
 
 body {
     font-family: var(--paragraph-font);
@@ -49,8 +49,8 @@ nav a:hover {
     --accent1-color: aquamarine;
     --accent2-color: darkblue;
 
-    --heading-font: 'Rock Salt', serif;
-    --paragraph-font: 'Bradley Hand', serif;
+    --heading-font: 'Arial', sans-serif;
+    --paragraph-font: 'Tahoma', serif;
 
     --nav-background-color: d9c2a3;
     --nav-link-color: #39250b;

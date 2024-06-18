@@ -44,16 +44,16 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 :root {
-    --primary-color: #XXXXXX;
-    --secondary-color: #XXXXXX;
-    --accent1-color: #XXXXXX;
-    --accent2-color: #XXXXXX;
+    --primary-color: black;
+    --secondary-color: white;
+    --accent1-color: aquamarine;
+    --accent2-color: darkblue;
 
-    --heading-font: '______', serif;
-    --paragraph-font: '______', serif;
+    --heading-font: 'Rock Salt', serif;
+    --paragraph-font: 'Bradley Hand', serif;
 
-    --nav-background-color: #XXXXXX;
-    --nav-link-color: #XXXXXX;
-    --nav-hover-link-color: #XXXXXX;
-    --nav-hover-background-color: #XXXXXX;
+    --nav-background-color: d9c2a3;
+    --nav-link-color: #39250b;
+    --nav-hover-link-color: #b6d53b;
+    --nav-hover-background-color: #3629a5;
 }

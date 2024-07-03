@@ -93,9 +93,13 @@ a:hover {
     width: 10%;
     height: auto;
     float: right;
+    position: inherit;
 }
 .hero article p{
     color: #fff;
+    float: left;
+    position: relative;
+    width: 80%;
 }
 .history{
     clear: both;

@@ -1,0 +1,106 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Define CSS Variables in :root */
+:root {
+    --primary-color: #2C3E50;
+    --secondary-color: #18BC9C;
+    --accent-color: #E74C3C;
+    --background-color: #ECF0F1;
+    --text-color: #2C3E50;
+    --heading-font: 'Roboto', sans-serif;
+    --body-font: 'Roboto', sans-serif;
+}
+
+/* General Styles */
+body {
+    font-family: var(--body-font);
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+    /* Limiting the width of the page */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+/* Paragraphs */
+p {
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* Links */
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Social Media Links */
+.social-media a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+.hero{
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.hero h1 {
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    background-color: #2C3E50;
+    opacity: 0.8;
+    margin: 10% 15%;
+}
+
+.hero article {
+    position: absolute;
+    background-color: #2C3E50;
+    width: 80%;
+    margin: 15% 15%;
+    opacity: 0.8;
+}
+.hero article img {
+    width: 10%;
+    height: auto;
+    float: right;
+}
+.hero article p{
+    color: #fff;
+}
+.history{
+    clear: both;
+    margin: 0 auto;
+}
+.pictures{
+    clear: both;
+}

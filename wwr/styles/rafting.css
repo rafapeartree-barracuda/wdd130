@@ -257,3 +257,26 @@ nav {
     font-weight: 700;
     text-decoration: underline;
 }
+footer {
+    clear: both;
+    margin: 20px auto;
+    border: #ccc1c1ca solid 1px;
+    background-color: #555555;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+}
+footer p {
+    margin: 1rem;
+    color: whitesmoke;
+    grid-column: 1/ span 4;
+    text-align: center;
+}
+
+footer img {
+    margin: 1rem;
+    max-width: 50px;
+    max-height: 50px;
+    color:#fff;
+}

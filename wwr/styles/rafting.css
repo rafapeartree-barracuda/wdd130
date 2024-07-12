@@ -67,6 +67,8 @@ a:hover {
     position: relative;
     clear: both;
     height: 350px;
+    grid-gap: 10px;
+    text-align: center;
 }
 .hero img {
     display: block;
@@ -76,32 +78,34 @@ a:hover {
 }
 
 .hero h1 {
-    position: absolute;
     text-align: center;
     color: #fff;
     background-color: #2C3E50;
     opacity: 0.8;
-    margin: 10% 15%;
+    font-size: 2rem;
+    display: inline-block;
+
 }
 
 .hero article {
-    position: absolute;
     background-color: #2C3E50;
-    width: 80%;
-    margin: 15% 15%;
     opacity: 0.8;
+    display: grid;
+    margin: 1.5rem;
+    text-align: left;
+    font-size: 20px;
 }
 .hero article img {
-    width: 10%;
+    width: 15%;
     height: auto;
+    margin: 0 0 0 1rem;
     float: right;
-    position: inherit;
+    position: relative;
 }
 .hero article p{
     color: #fff;
-    float: left;
-    position: relative;
-    width: 80%;
+    grid-column: 1/ span 4;
+    margin: 1rem;
 }
 .history{
     clear: both;

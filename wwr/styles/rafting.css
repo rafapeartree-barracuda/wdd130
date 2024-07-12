@@ -104,7 +104,6 @@ a:hover {
 }
 .hero article p{
     color: #fff;
-    grid-column: 1/ span 4;
     margin: 1rem;
 }
 .history{
